@@ -17,4 +17,12 @@ public class MiniJeu : MonoBehaviour
     {
         textScore.text = pointageTemps.ToString("00.00");
     }
+
+    publid void TraiterDefaite(){
+        Debug.Log('Defaite');
+    }
+
+    void MontrerPanneauRecord(){
+        panneauReccord.SetActive(true);
+    }
 }
